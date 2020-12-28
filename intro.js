@@ -12,5 +12,5 @@ function logout(){
 function english(){
     chosen_course="English"
     localStorage.setItem("course",chosen_course);
-    window.location="game_page.html"
+    window.location="english.html"
 }
