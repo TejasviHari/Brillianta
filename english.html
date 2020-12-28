@@ -1,8 +1,16 @@
 <html>
 
     <head>
-        <title>Guess the word</title>
-        
+        <title>English Game</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q7C26H5SM6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q7C26H5SM6');
+</script>
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
@@ -12,6 +20,11 @@
     </head>
 
 <body>
+    <div class="top-bar">
+        <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+        <label id="user_label"></label>
+        <button class="glyphicon glyphicon-film btn btn-warning" onclick="end()" id="end"> End Game</button>
+    </div>
     <h4 id="player1_name"></h4><span id="player1_score"></span>
     <h4 id="player2_name"></h4><span id="player2_score"></span>
 <div class="container">
@@ -30,7 +43,7 @@
 <br>
 <button class="btn btn-success" onclick="send()" style="width: 30%;">Send</button>
 </center>
-<button class="btn btn-danger" onclick="end()" id="end">End Game</button>
+
 </div>
 <script src="english.js"></script>
 

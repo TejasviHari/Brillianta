@@ -84,3 +84,12 @@ else{
 
 }
 
+
+function logout(){
+    window.location="index.html"
+    
+}
+
+function end(){
+    window.location="popup.html";
+}
