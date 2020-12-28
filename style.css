@@ -25,3 +25,16 @@ body{
     width: 80%;
     border-radius: 15px;
 }
+
+#logout{
+    margin-left: 800px;
+}
+
+#user_label{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+}
+
+.top-bar{
+    margin-bottom:-10px ;
+}
