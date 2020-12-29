@@ -48,15 +48,7 @@ body{
     padding: 10px;
     }
 
-    #pop{
-        background-color:turquoise;
-        border-radius: 50px;
-        text-align: center;
-        margin-top: 300px;
-        margin-bottom:300px ;
-        margin-right:200px ;
-        margin-left:200px ;
-    }
+    
     
     #user_name1,#user_name2{
         display:inline-block;
@@ -77,3 +69,5 @@ body{
         text-align:right;
         
     }
+
+    
