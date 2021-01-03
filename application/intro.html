@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Intro</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q7C26H5SM6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q7C26H5SM6');
+</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+         <link rel="stylesheet" href="style.css" type="text/css">
+         <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    </head>
+<body>
+    <div class="top-bar">
+        <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+        <label id="user_label"></label>
+        
+    </div>
+    
+    <div id="settings" >
+        <button id="btn_set"class="glyphicon glyphicon-cog btn btn-info"></button>
+    </div>
+    <center>
+    <h1 style="color: white;">Here's How it Works...</h1>
+    <div class="col-lg-4 col-sm-8 col-xs-11 disclaimer">
+
+    <h2>Play English games!</h2>
+    <br>
+    <p>Play English games, get activities for each day or make your own activities, Learn a few basics from our basic ebooks, etc.
+        The possibilities are endless really!
+    </p>
+    <br>
+    <br>
+    <button class="btn btn-success" onclick="english()">Start your quick course!</button>
+
+    </div>
+<br>
+<div class="col-lg-4 col-sm-8 col-xs-11 disclaimer">
+
+    <h2>Play Math games!</h2>
+    <br>
+    <p>Play Math games, get activities for each day or make your own activities, Learn a few basics from our basic ebooks, etc.
+        The possibilities are endless really!
+    </p>
+    <br>
+    <br>
+    <button class="btn btn-danger" onclick="math()">Start your quick course!</button>
+
+    </div>
+    <div class="col-lg-4 col-sm-8 col-xs-11 disclaimer">
+
+        <h2>Learn some coding!</h2>
+        <br>
+        <p> View a few platforms to practice and also learn a few basic things like local storage,bootstrap,etc.
+            Also Gives you a link to go to Whitehatjr to learn coding!(That's where I learned coding).
+            Enjoy!
+        </p>
+        <br>
+        <button class="btn btn-warning" onclick="code()">Start your quick course!</button>
+    
+        </div>
+
+        <div class="col-lg-4 col-sm-8 col-xs-11 disclaimer">
+
+            <h2>Com'n'chat</h2>
+            <br>
+            <p> Say "Hi!" To each other and communicate.Chat as a pair, as your friend or as you! Happy Chatting! 
+            </p>
+            <br>
+            <button class="btn btn-info" onclick="social()">Get chattin'!</button>
+        
+            </div>
+        </center>
+        <script src="intro.js"></script>
+</body>
+
+</html>
