@@ -2,6 +2,9 @@ body{
     background-color:#b8bcfa;
     text-align: center;
 }
+.container{
+    text-align: center;
+}
 #wrap{
     text-align:center
 }
@@ -9,10 +12,19 @@ body{
 .sicon{
     border-radius: 80px;
 }
+.folder{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+    width: 170px;
+
+}
+
 .row{
-    background-color: white;
+   
     border-radius: 20px;
     width: 100px;
+    display: inline;
 }
 #ptag{
     color: black;
@@ -27,7 +39,6 @@ body{
     background-color: white;
      position: center;
     margin-top: 100px;
-    width: 60%;
 
 }
 
