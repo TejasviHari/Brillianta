@@ -9,8 +9,6 @@ function logout(){
 }
 
 
-function english(){
-    chosen_course="English"
-    localStorage.setItem("course",chosen_course);
-    window.location="game_page.html"
+function biz(){
+   window.location="biz_page.html"
 }
