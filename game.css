@@ -1,24 +1,25 @@
 body{
-    background-color: lightblue;
+    background-color: #b8bcfa;
+    font-family: 'DM Sans', sans-serif;
 }
 
-.login_div1,.login_div2{
+.links,.updates,.facts{
 background-color: white;
 float: none;
 border-radius: 15px;
-padding: 10px;
+padding-left: 10px;
+padding-right: 10px;
+width: 500px;
 }
 
-#user_name1,#user_name2{
-    display:inline-block;
-    margin-left: 20px;
-    width: 300px;
-}
-#output{
+
+.page{
     border-radius: 10px;
-    background-color: white;
+     background-color: #9399f5;
     border-top: 7px solid rgb(66, 5, 107);
     text-align: center;
-     width: 400px;
+    display: inline;
+     width: 1000px;
 
 }
+
